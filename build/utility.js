@@ -6,3 +6,12 @@ function add(x, y) {
     return x + y;
 }
 exports.add = add;
+let ecuador = {
+    capital: 'Quito',
+    population: 200000
+};
+function countryData(data) {
+    return data;
+}
+let test = countryData(ecuador)
+console.log(test)
